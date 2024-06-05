@@ -309,4 +309,4 @@ def main(subreddit):
     save_to_database(subreddit_df, submission_df, comment_df, author_df)
 
 if __name__ == "__main__":
-    main(user_subreddit) # replace with the name of the subreddit you'd like to extract
+    main(user_subreddit) 
