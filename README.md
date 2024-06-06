@@ -42,5 +42,5 @@ You will need a Reddit account and a Reddit app to access praw. You will also ne
 Locate the 'sql' folder in the repository and run the create_database.sql and create_database_tables.sql scripts in SQL Server. This will create the initial database with four tables: subreddit, submission, comment, and author. This method involves extracting data from praw and putting it into temporary tables, which are then merged into permanent tables after being preprocessed. The SQL scripts I used for cleaning and adding relationships between the tables are located within the airflow-docker directory in the dags folder. If you choose to run these in Airflow, they are incorporated into the DAG workflow and will automatically run when the data is first extracted.
 
 ## Docker and Airflow
-
+As I mentioned previously, instructions on how to run the required Docker images and access the Airflow web interface are on DockerHub: https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab/general.
 
