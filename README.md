@@ -1,5 +1,5 @@
 # Reddit Data Extraction and Sentiment Analysis
-Reddit data extraction using praw API. Requires SQL Server 2020 and Python 3.13.1. Utilizes VADER and FinBERT sentiment analysis models.
+Financial Reddit data extraction with praw and Python. Using SQL Server 2020 for the database and Power BI for visualization. Sentiment analysis with VADER and FinBERT.
 
 This repository contains raw Python and SQL scripts that extract, transform, and load cleaned data from praw into SQL Server. 
 
