@@ -6,7 +6,7 @@ This repository contains raw Python and SQL scripts that extract, transform, and
 
 This repository also includes an Apache Airflow DAG to manage the workflow. 
 
-Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab** to download the required Docker images to run in Airflow.
+Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab** to download Docker images and run in Airflow.
 
 ## Dependencies
 * pandas==2.2.2 
