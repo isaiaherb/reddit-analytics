@@ -1,4 +1,4 @@
-# Compute FinBERT sentiment scores for the comments and submissions in SQL Server.
+# Compute positive, negative, neutral, and compound FinBERT sentiment scores for the comments and submissions in SQL Server.
 import pandas as pd
 from sqlalchemy import create_engine, text
 import urllib
