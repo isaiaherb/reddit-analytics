@@ -4,9 +4,9 @@ Sentiment analysis is done using the VADER and FinBERT models.
 
 This repository contains raw Python and SQL scripts that extract, transform, and load cleaned data from praw into SQL Server. 
 
-This repository also includes an Apache Airflow DAG to manage the workflow. 
+This repository also includes an example Apache Airflow DAG to manage workflows. 
 
-Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab** to download Docker images and run in Airflow.
+Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab** to download Docker images.
 
 ## Dependencies
 * pandas==2.2.2 
