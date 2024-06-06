@@ -19,12 +19,3 @@ Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-sc
 * transformers==4.41.1 
 * torch==2.3.0 
 
-## Running Airflow in Docker
-Dockerfile, docker-compose.yml
-DockerHub
-DAG
-
-## Data Visualization
-main_query.sql
-- company, called 'brand'
-- market sector, called 'topic'
