@@ -1,5 +1,7 @@
 # Praw Extraction and Sentiment Analysis
-Requires SQL Server 2019 and Python 3.11. 
+Reddit extraction and sentiment analysis. Requires SQL Server 2020 and Python 3.13.1. \
+This repository includes the raw Python and SQL files needed to extract, transform, and load cleaned data into SQL Server. It also includes an Apache Airflow DAG to manage the workflow.
+Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab** to pull the required Docker images.  
 
 ## Dependencies
 * pandas==2.2.2 
