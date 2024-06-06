@@ -8,15 +8,17 @@ This repository also includes an example Apache Airflow DAG to manage workflows.
 
 Before running any of the Python extraction scripts, you must first create a Reddit account and then a Reddit app to get your credentials, which should be assigned as environment variables.
 
+* Create a Reddit application and get your credentials here: https://old.reddit.com/prefs/apps/⁠
+
 You also need to create a SQL Server database to store data extracted from the praw API.
 
 Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab** to download Docker images.
 
-Praw documentation here: https://praw.readthedocs.io/en/latest/
+Praw documentation: **https://praw.readthedocs.io/en/latest/**
 
-Docker documentation: https://docs.docker.com/
+Docker documentation: **https://docs.docker.com/**
 
-Apache Airflow documentation: https://airflow.apache.org/docs/
+Apache Airflow documentation: **https://airflow.apache.org/docs/**
 
 ## Dependencies
 * pandas==2.2.2 
@@ -31,9 +33,14 @@ Apache Airflow documentation: https://airflow.apache.org/docs/
 * torch==2.3.0
   
 ## Reddit App and Environment Variables
+You will need a Reddit account and a Reddit app to access praw. You will also need to create environment variables on your local machine to store your Reddit credentials. Navigate to the link above once the app has been created and click 'edit' in the bottom left corner of the application window, there you'll find the necessary credentials to use praw.
+* CLIENT_ID: the id of your Reddit application, found beneath its name in the editing tab
+* CLIENT_SECRET: the secret key that can be found next to the word 'secret' in the editing tab
+* USER_AGENT: the name of your Reddit application, found in bold at the top of the editing tab
 
 ## SQL Server
-Create a 
+Locate the 'sql' folder in the repository and run the create_database.sql and create_database_tables.sql scripts in SQL Server. This will create the initial database with four tables: subreddit, submission, comment, and author. This method involves extracting data from praw and putting it into temporary tables, which are then merged into permanent tables after being preprocessed. The SQL scripts I used for cleaning and adding relationships between the tables are located within the airflow-docker directory in the dags folder. If you choose to run these in Airflow, they are incorporated into the DAG workflow and will automatically run when the data is first extracted.
+
 ## Docker and Airflow
 
 
