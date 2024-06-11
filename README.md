@@ -4,7 +4,7 @@ Contains 2 Python ETLs, one for simpler streamlit visualization, and one for sto
 # Streamlit Dashboard
 ![Positive and Negative Sentiment Example](https://github.com/isaiaherb/Reddit-Sentiment-Analyzer/issues/1#issue-2347298959)
 ![Emotion Scores Example]([https://github.com/isaiaherb/Reddit-Sentiment-Analyzer/issues/1#issue-2347298959](https://github.com/isaiaherb/Reddit-Sentiment-Analyzer/issues/2#issue-2347300183))
-![LDA Topic Modeling](https://github.com/isaiaherb/Reddit-Sentiment-Analyzer/issues/1#issue-2347298959)
+![LDA Topic Modeling]([https://github.com/isaiaherb/Reddit-Sentiment-Analyzer/issues/1#issue-2347298959](https://github.com/isaiaherb/Reddit-Sentiment-Analyzer/issues/3#issue-2347301908))
 
 ## Dependencies
 * pandas==2.2.2 
