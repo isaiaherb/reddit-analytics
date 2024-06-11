@@ -19,22 +19,19 @@ from transformers import pipeline, BartTokenizer
 import plotly.express as px
 import plotly.graph_objs as go
 
-# Download NLTK data if not already downloaded
 nltk.download('vader_lexicon')
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-# Initialize models
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn", framework="tf")
 tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
 analyzer = SentimentIntensityAnalyzer()
 
-# Initialize Reddit API client
 reddit = praw.Reddit(
-    client_id='SZhCDJt_FNNZET5JTvgUrw',
-    client_secret='TTNbsB6xGkSlx3MH30I8U4u9MI4kMw',
-    user_agent='streamlit'
+    client_id='CLIENT_ID',
+    client_secret='CLIENT_SECRET',
+    user_agent='USER_AGENT'
 )
 
 @st.cache_data(show_spinner=False)
