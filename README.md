@@ -1,5 +1,9 @@
 # Python Reddit Data Extraction and Sentiment Analysis (Streamlit Visualization)
-Note: This is a work in progress, data visualization is not final and can easily be modified. This repository also contains raw Python and SQL scripts that extract, transform, and load cleaned data from the Reddit API (praw) into SQL Server. The sentiment analysis is done using the VADER and FinBERT models and also includes a breakdown of the emotions contained in the comments. Before running, you need to have a Reddit account and create a Reddit app in order to get your credentials. 
+
+Notes:
+- This repository contains Python and SQL scripts that extract, transform, and load cleaned data from the Reddit API (praw) into a SQL Server database for storage.
+- NLP techniques include topic modeling (LDA), sentiment analysis, and emotion analysis.
+- Before running, you need to have a Reddit account and create a Reddit app to get your credentials.
 
 ## Dependencies
 * pandas==2.2.2 
