@@ -1,6 +1,8 @@
 # Python Reddit Data Extraction and Sentiment Analysis (Streamlit Visualization) 
 Contains 2 Python ETLs, one for simpler streamlit visualization, and one for storage in SQL Server. NLP techniques include topic modeling (LDA), sentiment analysis, and emotion analysis. Before running, you need to have a Reddit account and create a Reddit app to get your credentials. 
 
+# Streamlit Dashboard
+![alt text](https://github.com/isaiaherb/Reddit-Sentiment-Analyzer/issues/1#issue-2347298959)
 ## Dependencies
 * pandas==2.2.2 
 * nltk==3.8.1 
