@@ -107,7 +107,7 @@ def plot_sentiment(df):
     fig.add_trace(go.Scatter(x=df_sentiment.index, y=df_sentiment['positive'], mode='lines', name='Positive Sentiment', line=dict(color='green')))
     fig.add_trace(go.Scatter(x=df_sentiment.index, y=df_sentiment['negative'], mode='lines', name='Negative Sentiment', line=dict(color='red')))
 
-    fig.update_layout(title='Positive and Negative Sentiment Over Time', xaxis_title='Time', yaxis_title='Sentiment Score', showlegend=True)
+    fig.update_layout(title='Positive and Negative Sentiment', xaxis_title='Time', yaxis_title='Sentiment Score', showlegend=True)
     st.plotly_chart(fig)
 
 def plot_emotions(df):
@@ -127,7 +127,7 @@ def plot_emotions(df):
             x=df_emotions.index, y=df_emotions[emotion], mode='lines', stackgroup='one', name=emotion, fill='tonexty', line=dict(color=colors[emotion])
         ))
 
-    fig.update_layout(title='Emotion Scores Over Time', xaxis_title='Time', yaxis_title='Scores', showlegend=True)
+    fig.update_layout(title='Emotion Scores', xaxis_title='Time', yaxis_title='Scores', showlegend=True)
     st.plotly_chart(fig)
 
 def plot_lda_topics(lda_model, corpus, dictionary, num_topics=4):
