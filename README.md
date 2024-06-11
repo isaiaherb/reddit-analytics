@@ -1,24 +1,6 @@
-# Financial Reddit Data Extraction and Sentiment Analysis 
+# Python Reddit Data Extraction and Sentiment Analysis (Streamlit Visualization)
 
-Sentiment analysis is done using the VADER and FinBERT models.
-
-This repository contains raw Python and SQL scripts that extract, transform, and load cleaned data from praw into SQL Server. 
-
-This repository also includes an example Apache Airflow DAG to manage workflows. 
-
-Before running any of the Python extraction scripts, you must first create a Reddit account and then a Reddit app to get your credentials, which should be assigned as environment variables.
-
-* Create a Reddit application and get your credentials here: https://old.reddit.com/prefs/apps/⁠
-
-You also need to create a SQL Server database to store data extracted from the praw API.
-
-Visit **https://hub.docker.com/repository/docker/isaiaherb9264/reddit-charles-schwab** to download Docker images.
-
-Praw documentation: **https://praw.readthedocs.io/en/latest/**
-
-Docker documentation: **https://docs.docker.com/**
-
-Apache Airflow documentation: **https://airflow.apache.org/docs/**
+This repository contains raw Python and SQL scripts that extract, transform, and load cleaned data from praw into SQL Server. The sentiment analysis is done using the VADER and FinBERT models. Before running any Python extraction scripts, you must create a Reddit account and then a Reddit app to get your credentials, which should be assigned as environment variables. 
 
 ## Dependencies
 * pandas==2.2.2 
