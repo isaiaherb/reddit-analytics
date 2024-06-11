@@ -1,6 +1,5 @@
 # Python Reddit Data Extraction and Sentiment Analysis (Streamlit Visualization)
-
-This repository contains raw Python and SQL scripts that extract, transform, and load cleaned data from praw into SQL Server. The sentiment analysis is done using the VADER and FinBERT models. Before running any Python extraction scripts, you must create a Reddit account and then a Reddit app to get your credentials, which should be assigned as environment variables. 
+Note: This is a work in progress, data visualization is not final and can easily be modified. This repository also contains raw Python and SQL scripts that extract, transform, and load cleaned data from the Reddit API (praw) into SQL Server. The sentiment analysis is done using the VADER and FinBERT models and also includes a breakdown of the emotions contained in the comments. Before running, you need to have a Reddit account and create a Reddit app in order to get your credentials. 
 
 ## Dependencies
 * pandas==2.2.2 
