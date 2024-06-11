@@ -1,14 +1,17 @@
-# Python Reddit Data Extraction and Sentiment Analysis (Streamlit Visualization)
-
-Notes:
-- This repository contains Python and SQL scripts that extract, transform, and load cleaned data from the Reddit API (praw) into a SQL Server database for storage.
+# Python Reddit Data Extraction and Sentiment Analysis (Streamlit Visualization) 
+- Contains 2 Python ETLs, one for simpler streamlit visualization, and one for storage in SQL Server.
 - NLP techniques include topic modeling (LDA), sentiment analysis, and emotion analysis.
 - Before running, you need to have a Reddit account and create a Reddit app to get your credentials.
 
 ## Dependencies
 * pandas==2.2.2 
 * nltk==3.8.1 
-* praw==7.7.1 
+* praw==7.7.1
+* pyLDAvis
+* streamlit
+* plotly.express
+* plotly.graph_objs
+* nrclex
 * sqlalchemy==1.4.52 
 * pyodbc==5.1.0 
 * apache-airflow==2.9.1 
